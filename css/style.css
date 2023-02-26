@@ -1,0 +1,185 @@
+
+body {
+    background-color: #EADDD5 ;
+    padding: 40px;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #303F65;
+    box-shadow: 0px 4px  4px   rgba(0, 0, 0, 0.25);
+}
+/*main-content*/ 
+.maincontent {
+    padding: 88px;
+    margin-bottom: 64px;
+    width: 90%;
+   
+ }
+ .main-content-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 24px;
+    color: #303F65;
+    margin: 0 0 8px p;
+ }
+.profession {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #303F65;
+    margin-bottom: 18px;
+}
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0 0 28px 0;
+}
+.descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 75%;
+} 
+/*work experience*/
+.work-experience-conteiner{
+    margin-bottom: 44px;
+}
+.work-experience-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+}
+.work-experience-place{
+    margin-bottom: 16px;
+}
+.work-experience-company{
+    color: #6098f5;
+}
+.work-period{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin: 12px 0 8px 0;
+}
+.work-duties{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+} 
+.work-duties-list{
+    padding: 0 0 0 14px;
+}
+/*sidebar*/
+.sidebar {
+    background-color: #ECF5FA;
+    width: 40%;
+    border-right: 2px solid #303F65;
+}
+
+.foto {
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+.born-conteiner, .died-conteiner,.nationality{
+    margin: 48px 0 0 40px;
+
+}
+
+.born-title{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #161d2a;
+    margin-bottom: 8px;
+}
+
+.born-item{
+    margin: 0 auto;
+}
+
+
+.born-list-item{
+    color: #6d9bf2;
+}
+
+.born-list-text{
+    font-style:normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+
+}
+
+@media(max-width: 768px){
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .maincontent {
+        padding: 25px;
+        margin: 0 auto;
+        width: 90%;
+     }
+    .main-content-title,.work-period
+    {
+        text-align: center;
+    }
+    h3,h4{
+        text-align: center;
+    }
+    .name{
+        font-size: 35px;
+        line-height: 40px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .profession{
+        text-align: center;
+    }
+    
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    
+    }
+    .born-conteiner,
+    .descr
+    {  
+     margin: 0 auto;
+    }
+    .nationality, .died-conteiner{
+    margin: 0 auto;
+        
+        
+    }
+    .foto {
+        margin-top: 0px;
+        width: 100%;
+    }
+    }
